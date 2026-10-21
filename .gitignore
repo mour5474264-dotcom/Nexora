@@ -1,0 +1,38 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.secret
+
+# Runtime data
+data/
+logs/
+tmp/
+artifacts/
+downloads/
+uploads/
+
+# Node/Python/build output
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# IDE/OS
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Local Open WebUI secrets should never be copied into Nexora.
+.webui_secret_key
+
